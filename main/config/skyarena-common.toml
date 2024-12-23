@@ -1,0 +1,34 @@
+#Starting points for the altar.
+startingPoints = 500
+#The number of points to increase after each victory.
+pointsIncrease = 100
+#Maximum ratio of remaining points to mob cost for summoning.
+#For example, with a value of 8 and remaining points of 400, mobs with a cost of 50 or less will not be summoned.
+#If no mob can be summoned within 5 attempts, a random mob will be summoned regardless of its cost.
+mobCostRatio = 8
+#Chance for spawning a squad of mobs instead of a single mob.
+#For example, a value of 0.35 means a 35% chance to spawn a squad.
+#Range: 0.0 ~ 1.0
+squadSpawnChance = 0.35
+#Number of mobs in a squad when squad spawning occurs.
+#For example, a value of 3 means 3 identical mobs will spawn.
+#If there are not enough points to spawn the full squad, only as many mobs will spawn as the points allow.
+squadSpawnSize = 3
+#Enables or disables setting the time to night when the battle starts.
+#If true, the game will automatically switch to night time at the start of the battle.
+nightTime = true
+#Enables or disables starting rain when the battle begins.
+#If true, it will start raining at the beginning of the battle.
+enableRain = false
+#Determines whether summoned mobs drop items upon death.
+#If true, summoned mobs will drop their loot as usual.
+#If false, no items will drop from summoned mobs.
+enableMobItemDrop = true
+#Determines whether a barrier wall will block the exit at the start of the battle.
+#If true, a temporary barrier will be created to prevent leaving the battle area.
+createBarrierWall = false
+#List of mobs with their values (e.g., [["minecraft:zombie", 10]])
+mobValues = [["minecraft:blaze", 40], ["minecraft:pillager", 35], ["iceandfire:dread_beast", 40], ["minecraft:skeleton", 30], ["minecraft:zoglin", 55], ["minecraft:ravager", 150], ["iceandfire:hydra", 500], ["minecraft:vindicator", 50], ["iceandfire:cockatrice", 100], ["minecraft:magma_cube", 25], ["minecraft:spider", 20], ["call_of_yucutan:blowgun_huracan", 30], ["iceandfire:troll", 80], ["minecraft:warden", 2000], ["minecraft:evoker", 80], ["minecraft:slime", 20], ["iceandfire:dread_thrall", 40], ["iceandfire:dread_ghoul", 40], ["minecraft:illusioner", 45], ["minecraft:zombified_piglin", 35], ["minecraft:witch", 30], ["iceandfire:dread_scuttler", 55], ["iceandfire:stymphalian_bird", 40], ["call_of_yucutan:undead_warrior", 25], ["minecraft:wither_skeleton", 45], ["minecraft:husk", 25], ["minecraft:cave_spider", 30], ["iceandfire:cyclops", 200], ["iceandfire:ghost", 45], ["minecraft:stray", 35], ["minecraft:zombie", 20], ["iceandfire:dread_knight", 80]]
+#A list of loot tables for the chest
+lootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/ancient_city", "minecraft:chests/ancient_city_ice_box", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure", "minecraft:chests/buried_treasure", "minecraft:chests/desert_pyramid", "minecraft:chests/end_city_treasure", "minecraft:chests/igloo_chest", "minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/pillager_outpost", "minecraft:chests/ruined_portal", "minecraft:chests/shipwreck_map", "minecraft:chests/shipwreck_supply", "minecraft:chests/shipwreck_treasure", "minecraft:chests/simple_dungeon", "minecraft:chests/spawn_bonus_chest", "minecraft:chests/stronghold_corridor", "minecraft:chests/stronghold_crossing", "minecraft:chests/stronghold_library", "minecraft:chests/underwater_ruin_big", "minecraft:chests/underwater_ruin_small", "minecraft:chests/village/village_armorer", "minecraft:chests/village/village_butcher", "minecraft:chests/village/village_cartographer", "minecraft:chests/village/village_desert_house", "minecraft:chests/village/village_fisher", "minecraft:chests/village/village_fletcher", "minecraft:chests/village/village_mason", "minecraft:chests/village/village_plains_house", "minecraft:chests/village/village_savanna_house", "minecraft:chests/village/village_shepherd", "minecraft:chests/village/village_snowy_house", "minecraft:chests/village/village_taiga_house", "minecraft:chests/village/village_tannery", "minecraft:chests/village/village_temple", "minecraft:chests/village/village_toolsmith", "minecraft:chests/village/village_weaponsmith", "minecraft:chests/woodland_mansion", "iceandfire:chest/cyclops_cave", "iceandfire:chest/fire_dragon_female_cave", "iceandfire:chest/fire_dragon_male_cave", "iceandfire:chest/fire_dragon_roost", "iceandfire:chest/graveyard", "iceandfire:chest/hydra_cave", "iceandfire:chest/ice_dragon_female_cave", "iceandfire:chest/ice_dragon_male_cave", "iceandfire:chest/ice_dragon_roost", "iceandfire:chest/lightning_dragon_female_cave", "iceandfire:chest/lightning_dragon_male_cave", "iceandfire:chest/lightning_dragon_roost", "iceandfire:chest/mausoleum_chest", "iceandfire:chest/myrmex_desert_food_chest", "iceandfire:chest/myrmex_jungle_food_chest", "iceandfire:chest/myrmex_loot_chest", "iceandfire:chest/myrmex_trash_chest", "iceandfire:chest/village_scribe", "call_of_yucutan:chest/crypt_chest_loot", "call_of_yucutan:chest/overgrown_chest_loot"]
+

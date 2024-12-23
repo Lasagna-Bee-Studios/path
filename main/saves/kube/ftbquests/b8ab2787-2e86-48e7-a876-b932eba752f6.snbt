@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "b8ab27872e8648e7a876b932eba752f6"
+	name: "SneakySnake2508#b8ab2787"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

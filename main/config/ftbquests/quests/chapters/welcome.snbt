@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "70D0E5CBA95EECF4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "747F753ED04C1E38"
+		subtitle: "Welcome to the Path: Asencsion. The progression of the pack can be divided into three catagories: tech, exploration, and magic. All three of these catagories will meet at progression checkpoints that will guide your experience and ensure a relatively equal level of development in all three catagories,"
+		tasks: [{
+			id: "741C0C9A783EFFCB"
+			title: "Welcome"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Welcome"
+}

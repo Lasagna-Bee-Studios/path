@@ -1,0 +1,68 @@
+package io.github.Linksapprentice.path_core.init;
+
+import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.client.extensions.common.IClientItemExtensions;
+import org.jetbrains.annotations.NotNull;
+import software.bernie.geckolib.animatable.GeoItem;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInstanceCache;
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animation.Animation;
+import software.bernie.geckolib.core.animation.AnimationState;
+import software.bernie.geckolib.core.animation.RawAnimation;
+import software.bernie.geckolib.core.object.PlayState;
+
+import java.util.function.Consumer;
+
+public class ochre_froginum_armor extends Item implements GeoItem {
+    public static final ModArmorMaterial ochre_froginium = new ModArmorMaterial(
+            new int[] {10000, 10000, 10000, 10000},
+            new int[] {18, 24, 20, 18 },
+            20,
+            SoundEvents.FROG_AMBIENT,
+            () -> Ingredient.of(ItemInit.ochre_froginium_ingot::get),
+            "ochre_froginium_armor",
+            6f,
+            1f
+    );
+    private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
+
+    public ochre_froginum_armor(Properties p_41383_) {
+        super(p_41383_);
+    }
+
+    public void initializeClient(Consumer<IClientItemExtensions> consumer){
+        consumer.accept(new IClientItemExtensions() {
+                            private ochre_froginium_armor_renderer renderer;
+
+                            @Override
+                            public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity livingEntity, ItemStack itemstack, EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
+                                if (this.renderer == null)
+                                    this.renderer = new ochre_froginium_armor_renderer();
+                                this.renderer.prepForRender(livingEntity, itemstack, equipmentSlot, original);
+                                return this.renderer;
+                            }
+                        }
+        );
+    }
+
+    private PlayState predicate(AnimationState animationState) {
+        animationState.getController().setAnimation(RawAnimation.begin().then("idle", Animation.LoopType.LOOP));
+        return PlayState.CONTINUE;
+    }
+    @Override
+    public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+
+    }
+
+    @Override
+    public AnimatableInstanceCache getAnimatableInstanceCache() {
+        return cache;
+    }
+}

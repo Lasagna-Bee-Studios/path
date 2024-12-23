@@ -1,0 +1,23 @@
+package io.github.Linksapprentice.path_core.init;
+
+import io.github.Linksapprentice.path_core.Path_Core;
+import net.minecraft.resources.ResourceLocation;
+import software.bernie.geckolib.model.GeoModel;
+
+public class ochre_froginium_armor_model extends GeoModel<ochre_froginum_armor> {
+
+    @Override
+    public ResourceLocation getModelResource(ochre_froginum_armor animatable) {
+        return new ResourceLocation(Path_Core.MODID, "geo/froginium_armor.geo.json");
+    }
+
+    @Override
+    public ResourceLocation getTextureResource(ochre_froginum_armor animatable) {
+        return new ResourceLocation(Path_Core.MODID, "textures/models/armor/ochre_froginium_armor");
+    }
+
+    @Override
+    public ResourceLocation getAnimationResource(ochre_froginum_armor animatable) {
+        return new ResourceLocation(Path_Core.MODID, "textures/models/armor/froginium_armor.animation.json");
+    }
+}

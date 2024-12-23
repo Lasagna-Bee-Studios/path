@@ -1,0 +1,16 @@
+{
+	version: 1
+	uuid: "2236429e762746aba45224c7749b303b"
+	name: "LinksApprentice#2236429e"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		2236429e762746aba45224c7749b303b: {
+			can_edit: 1b
+		}
+	}
+}

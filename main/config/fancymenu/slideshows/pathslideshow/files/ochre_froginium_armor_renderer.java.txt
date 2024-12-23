@@ -1,0 +1,10 @@
+package io.github.Linksapprentice.path_core.init;
+
+import software.bernie.geckolib.renderer.GeoArmorRenderer;
+
+public class ochre_froginium_armor_renderer extends GeoArmorRenderer<ochre_froginum_armor>
+{
+    public ochre_froginium_armor_renderer() {
+        super(new ochre_froginium_armor_model());
+    }
+}

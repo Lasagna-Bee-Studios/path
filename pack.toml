@@ -1,0 +1,13 @@
+name = "Path_Accension"
+author = "Mr. Frog & Neon Cranberries"
+version = ".0.01"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f40cd2d445ebd56b524e32c0327b4d5f42764b37268f10493d6d12fb541e350a"
+
+[versions]
+forge = "47.1.3"
+minecraft = "1.20.1"

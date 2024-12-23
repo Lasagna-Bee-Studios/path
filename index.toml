@@ -1,0 +1,61 @@
+hash-format = "sha256"
+
+[[files]]
+file = ".envrc"
+hash = "1d26c74fd25a4c3dbb09e029fc609588da499fd4af2a41c88f6316c7f8c54cf1"
+
+[[files]]
+file = ".github/actions/build/action.yml"
+hash = "1aa52a281ff91f82a38d3c6ca01abf3a022c7b96a66b16c136aeaf124b3f775c"
+
+[[files]]
+file = ".github/actions/bump-pack/action.yml"
+hash = "2ea2929843db938583f06094a8d9a1fca8f8afee9a67e4ad5321f365c353609b"
+
+[[files]]
+file = ".github/actions/parse/action.yml"
+hash = "c4c79cf38475b0ba44167d9be1d60e718aec3369e2f189c5c88528e66a6b0c25"
+
+[[files]]
+file = ".github/actions/release/action.yaml"
+hash = "7e24d2e3238a7ff7f3691e3a19b3accfdd6cac568c64fa322855ecbb65d3c666"
+
+[[files]]
+file = ".github/dependabot.yml"
+hash = "d6d918dc7b258171b8118b420fb5864e9f8c66400dd83b8946b2ecfb528a99a2"
+
+[[files]]
+file = ".github/semantic.yml"
+hash = "220f1ba1ceb11a4e0fcf2690e7c9938cffdd4c0ad8ad59b843192627df1f2002"
+
+[[files]]
+file = ".github/workflows/bump-version.yml"
+hash = "567aa29e08967b58bc76c66e1befb9a3c9da1058d7c7dba16e5816b71f64009b"
+
+[[files]]
+file = ".github/workflows/pipeline.yml"
+hash = "21ac31a217b9769d858b507ec4be298761d0f92e0bb71a953b3812245bed0914"
+
+[[files]]
+file = ".github/workflows/update.yml"
+hash = "bf8b2cf4902896c1d0d00ccb95d4de833a0573db985504aaed6552da49cc39b0"
+
+[[files]]
+file = "LICENSE"
+hash = "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+
+[[files]]
+file = "README.md"
+hash = "9a0d1bd495d2157b24d23173caf4724964b0bb83f3a380574ab340d64ff07b54"
+
+[[files]]
+file = "flake.lock"
+hash = "b7480ff5478ba90ece30a52d9f7506274258ea21af007a1c94c49a98745b6d7f"
+
+[[files]]
+file = "flake.nix"
+hash = "020da43d62bd5e524a08e7dad3118bc388e557c2ae84a1dfa335b2c1fc089c40"
+
+[[files]]
+file = "main/.packwizignore"
+hash = "a914dd0bd0bc5d759491689a21723a7e68ebee1a34c1453a8e08d63921749220"

@@ -1,0 +1,21 @@
+[11:58:52] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[11:58:52] [INIT] Loaded plugins:
+[11:58:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:58:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[11:58:52] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[11:58:52] [INIT] - com.probejs.ProbeJSPlugin
+[11:58:52] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[11:58:52] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[11:58:52] [INIT] - org.mesdag.geckojs.GeckoJSPlugin
+[11:58:52] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[11:58:52] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[11:58:52] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[11:58:52] [INFO] Loaded script startup_scripts:effects.js in 0.048 s
+[11:58:52] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[11:58:52] [INFO] Loaded script startup_scripts:example.js in 0.002 s
+[11:58:52] [INFO] Loaded script startup_scripts:path.js in 0.015 s
+[11:58:52] [INFO] setbonus.js#1: Loaded Java class 'java.lang.Integer'
+[11:58:52] [INFO] Loaded script startup_scripts:setbonus.js in 0.006 s
+[11:58:52] [INFO] Loaded 4/4 KubeJS startup scripts in 0.616 s with 0 errors and 0 warnings
+[11:58:52] [INFO] path.js#5: ~ minecraft:item | path:stone_mask
+[11:58:57] [INFO] + minecraft:item | path:stone_mask

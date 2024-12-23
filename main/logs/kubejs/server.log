@@ -1,0 +1,140 @@
+[11:59:27] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[11:59:27] [INIT] Loaded plugins:
+[11:59:27] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:59:27] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[11:59:27] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[11:59:27] [INIT] - com.probejs.ProbeJSPlugin
+[11:59:27] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[11:59:27] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[11:59:27] [INIT] - org.mesdag.geckojs.GeckoJSPlugin
+[11:59:27] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[11:59:27] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[11:59:27] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[11:59:28] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[11:59:28] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[11:59:28] [INFO] Loaded script server_scripts:roundabout_recipes.js in 0.0 s
+[11:59:28] [INFO] Loaded 2/2 KubeJS server scripts in 0.006 s with 0 errors and 0 warnings
+[11:59:28] [INFO] Scripts loaded
+[11:59:28] [INFO] Initializing recipe event...
+[11:59:30] [INFO] Processing recipes...
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:mall_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/fire_resistance[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:cat_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:blossom_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:anti_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/invisibility[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:creator_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/clear[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:rain_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:bricks_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:far_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:fulgurite_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:stal_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [INFO] + create:deploying: [[Lcom.mojang.datafixers.util.Either;@6f15062] -> [,[Lcom.mojang.datafixers.util.Either;@4cad7bad] [json]
+[11:59:30] [INFO] + create:deploying: [[Lcom.mojang.datafixers.util.Either;@1a7001f8] -> [,[Lcom.mojang.datafixers.util.Either;@4b7f4d0] [json]
+[11:59:30] [INFO] + create:pressing: [[Lcom.mojang.datafixers.util.Either;@849d664] -> [,[Lcom.mojang.datafixers.util.Either;@2f9eb4d3] [json]
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:breeze_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:finale_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:revenge_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/feather_feet[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [INFO] + create:deploying: [[Lcom.mojang.datafixers.util.Either;@7fe13a37] -> [,[Lcom.mojang.datafixers.util.Either;@7ad57835] [json]
+[11:59:30] [INFO] + create:deploying: [[Lcom.mojang.datafixers.util.Either;@59913104] -> [,[Lcom.mojang.datafixers.util.Either;@3012fcb2] [json]
+[11:59:30] [INFO] + create:deploying: [[Lcom.mojang.datafixers.util.Either;@46d44805] -> [,[Lcom.mojang.datafixers.util.Either;@1711943a] [json]
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:railways_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [INFO] + create:filling: [[Lcom.mojang.datafixers.util.Either;@60881de8] -> [,[Lcom.mojang.datafixers.util.Either;@478e59c] [json]
+[11:59:30] [INFO] + create:pressing: [[Lcom.mojang.datafixers.util.Either;@1f53116d] -> [,[Lcom.mojang.datafixers.util.Either;@1c7edabc] [json]
+[11:59:30] [INFO] + create:pressing: [[Lcom.mojang.datafixers.util.Either;@3c39f386] -> [,[Lcom.mojang.datafixers.util.Either;@7faeb598] [json]
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/bloodthirst[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:ender_dragon_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:ice_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:cascade_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:ochre_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:relic_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:void_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:lost_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/emptiness[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/absorption[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/jump_boost[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:the_wither_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/weak_regeneration[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:actual_minecraft_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:shrieker_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/regeneration[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:never_gonna_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/speed[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/night_vision[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:otherside_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:tall_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:wait_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:christmas_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:pillaged_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:pigstep_alt_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:precipice_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/overload[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/allure[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/healing[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:creator_music_box_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:fox_jam_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:pumpkin_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:christams_just_for_you_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:trot_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:eleven_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [INFO] + create:deploying: [[Lcom.mojang.datafixers.util.Either;@447af779] -> [,[Lcom.mojang.datafixers.util.Either;@9b80b88] [json]
+[11:59:30] [INFO] + create:deploying: [[Lcom.mojang.datafixers.util.Either;@102166c6] -> [,[Lcom.mojang.datafixers.util.Either;@1f58afcd] [json]
+[11:59:30] [INFO] + create:pressing: [[Lcom.mojang.datafixers.util.Either;@c0a4260] -> [,[Lcom.mojang.datafixers.util.Either;@4527ec22] [json]
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:mystical_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/strength[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:pigstep_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/haste[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/soul_cross[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:time_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:parrot_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:strad_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:ward_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:chirp[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:hardcore_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:retri_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:mellohi_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:forgot_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:wozzy_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:blocks_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:deepstate_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/water_breathing[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'botania:brew/resistance[botania:brew]'! Falling back to vanilla: Cannot invoke "net.minecraft.core.Registry.m_7745_(net.minecraft.resources.ResourceLocation)" because "com.prunoideae.custom.brew.BotaniaRegistryObjectBuilderTypes.BREW_REGISTRY" is null
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:stridehop_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:thirteen_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [WARN] Failed to parse recipe 'more_music_discs:clouds_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[11:59:30] [INFO] Found 11515 recipes in 235.6 ms
+[11:59:30] [INFO] roundabout_recipes.js#6: - roundabout:stand_disc_shaped[minecraft:crafting_shaped]: [TinyMap[entries=[Ldev.latvian.mods.kubejs.util.TinyMap$Entry;@448e4084]] -> [,'roundabout:stand_disc']
+[11:59:30] [INFO] roundabout_recipes.js#7: + botania:mana_infusion: [net.minecraft.world.item.crafting.Ingredient@79e91299] -> [,'roundabout:stand_disc']
+[11:59:30] [INFO] roundabout_recipes.js#10: - roundabout:meteorite_ingot_from_block[minecraft:crafting_shapeless]: [[Ldev.latvian.mods.kubejs.item.InputItem;@137f35b3] -> [,'9x roundabout:meteorite_ingot']
+[11:59:30] [INFO] roundabout_recipes.js#10: - roundabout:meteorite_blasting[minecraft:blasting]: [net.minecraft.world.item.crafting.Ingredient@736cab62] -> [,'roundabout:meteorite_ingot']
+[11:59:30] [INFO] roundabout_recipes.js#10: - roundabout:meteorite_smelting[minecraft:smelting]: [net.minecraft.world.item.crafting.Ingredient@736cab62] -> [,'roundabout:meteorite_ingot']
+[11:59:30] [INFO] roundabout_recipes.js#12: + iceandfire:dragonforge: [] -> [] [json]
+[11:59:30] [INFO] roundabout_recipes.js#27: + iceandfire:dragonforge: [] -> [] [json]
+[11:59:30] [INFO] roundabout_recipes.js#42: + iceandfire:dragonforge: [] -> [] [json]
+[11:59:30] [INFO] Posted recipe events in 80.78 ms
+[11:59:30] [WARN] Error parsing recipe forbidden_arcanus:edelwood_chest_boat[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"forbidden_arcanus:edelwood_boat"},{"fabric_value":{"tag":"c:chests"},"forge_value":{"tag":"forge:chests/wooden"}}],"result":{"item":"forbidden_arcanus:edelwood_chest_boat"}}: An ingredient entry needs either a tag or an item
+[11:59:30] [WARN] Error parsing recipe forbidden_arcanus:aurum_chest_boat[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"forbidden_arcanus:aurum_boat"},{"fabric_value":{"tag":"c:chests"},"forge_value":{"tag":"forge:chests/wooden"}}],"result":{"item":"forbidden_arcanus:aurum_chest_boat"}}: An ingredient entry needs either a tag or an item
+[11:59:30] [WARN] Error parsing recipe dripium:raw_dripium_2[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["   ","   ","   "],"key":{},"result":{"item":"dripium:raw_dripium","count":1}}: Index 0 out of bounds for length 0
+[11:59:30] [INFO] Added 4 recipes, removed 4 recipes, modified 8 recipes, with 3 failed recipes in 41.56 ms
+[11:59:30] [INFO] ======== Debug output of all added recipes ========
+[11:59:30] [INFO] botania:kjs/ezjiq90z5lhi4sqbvnxaurus3: {"type":"botania:mana_infusion","output":{"item":"roundabout:stand_disc","count":1},"input":{"item":"ae2:portable_item_cell_1k"},"mana":50000}
+[11:59:30] [INFO] iceandfire:kjs/du2dhizyytwa5wuaz4g4ebnl9: {"type":"iceandfire:dragonforge","dragon_type":"fire","cook_time":5000,"input":{"item":"roundabout:meteorite"},"blood":{"item":"iceandfire:fire_dragon_blood"},"result":{"item":"roundabout:meteorite_ingot"}}
+[11:59:30] [INFO] iceandfire:kjs/8p8qzco5kbtt6ska2s8w5cy78: {"type":"iceandfire:dragonforge","dragon_type":"ice","cook_time":5000,"input":{"item":"roundabout:meteorite"},"blood":{"item":"iceandfire:ice_dragon_blood"},"result":{"item":"roundabout:meteorite_ingot"}}
+[11:59:30] [INFO] iceandfire:kjs/e78rtvm1723x4bp5bmlv05uc7: {"type":"iceandfire:dragonforge","dragon_type":"lightning","cook_time":5000,"input":{"item":"roundabout:meteorite"},"blood":{"item":"iceandfire:lightning_dragon_blood"},"result":{"item":"roundabout:meteorite_ingot"}}
+[11:59:30] [INFO] ======== Debug output of all modified recipes ========
+[11:59:30] [INFO] forbidden_arcanus:aurum_fence: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"forbidden_arcanus:aurum_planks"}},"pattern":["# #","# #"],"result":{"count":3,"item":"forbidden_arcanus:aurum_fence"},"show_notification":true} FROM {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"forbidden_arcanus:aurum_planks"},"X":{"fabric_value":{"item":"minecraft:stick"},"forge_value":{"tag":"forge:rods/wooden"}}},"pattern":["#X#","#X#"],"result":{"count":3,"item":"forbidden_arcanus:aurum_fence"},"show_notification":true}
+[11:59:30] [INFO] forbidden_arcanus:aurum_fence_gate: {"type":"minecraft:crafting_shaped","category":"building","key":{"X":{"item":"forbidden_arcanus:aurum_planks"}},"pattern":[" X "," X "],"result":{"item":"forbidden_arcanus:aurum_fence_gate"},"show_notification":true} FROM {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"fabric_value":{"item":"minecraft:stick"},"forge_value":{"tag":"forge:rods/wooden"}},"X":{"item":"forbidden_arcanus:aurum_planks"}},"pattern":["#X#","#X#"],"result":{"item":"forbidden_arcanus:aurum_fence_gate"},"show_notification":true}
+[11:59:30] [INFO] forbidden_arcanus:fungyss_fence_gate: {"type":"minecraft:crafting_shaped","category":"building","key":{"X":{"item":"forbidden_arcanus:fungyss_planks"}},"pattern":[" X "," X "],"result":{"item":"forbidden_arcanus:fungyss_fence_gate"},"show_notification":true} FROM {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"fabric_value":{"item":"minecraft:stick"},"forge_value":{"tag":"forge:rods/wooden"}},"X":{"item":"forbidden_arcanus:fungyss_planks"}},"pattern":["#X#","#X#"],"result":{"item":"forbidden_arcanus:fungyss_fence_gate"},"show_notification":true}
+[11:59:30] [INFO] forbidden_arcanus:fungyss_fence: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"forbidden_arcanus:fungyss_planks"}},"pattern":["# #","# #"],"result":{"count":3,"item":"forbidden_arcanus:fungyss_fence"},"show_notification":true} FROM {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"forbidden_arcanus:fungyss_planks"},"X":{"fabric_value":{"item":"minecraft:stick"},"forge_value":{"tag":"forge:rods/wooden"}}},"pattern":["#X#","#X#"],"result":{"count":3,"item":"forbidden_arcanus:fungyss_fence"},"show_notification":true}
+[11:59:30] [INFO] forbidden_arcanus:edelwood_fence: {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"forbidden_arcanus:edelwood_planks"}},"pattern":["# #","# #"],"result":{"count":3,"item":"forbidden_arcanus:edelwood_fence"},"show_notification":true} FROM {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"item":"forbidden_arcanus:edelwood_planks"},"X":{"fabric_value":{"item":"minecraft:stick"},"forge_value":{"tag":"forge:rods/wooden"}}},"pattern":["#X#","#X#"],"result":{"count":3,"item":"forbidden_arcanus:edelwood_fence"},"show_notification":true}
+[11:59:30] [INFO] forbidden_arcanus:corrupted_pixie: {"type":"minecraft:crafting_shaped","pattern":["#X#","   "],"key":{"#":{"item":"minecraft:feather"},"X":{"item":"forbidden_arcanus:arcane_crystal_dust"}},"result":{"item":"forbidden_arcanus:corrupted_pixie"}} FROM {"type":"minecraft:crafting_shaped","pattern":["#X#"," D "],"key":{"#":{"item":"minecraft:feather"},"X":{"item":"forbidden_arcanus:arcane_crystal_dust"},"D":{"item":"forbidden_arcanus:dark_soul"}},"result":{"item":"forbidden_arcanus:corrupted_pixie"}}
+[11:59:30] [INFO] dripium:raw_dripium_2: {"type":"minecraft:crafting_shaped","pattern":["   ","   ","   "],"key":{},"result":{"item":"dripium:raw_dripium","count":1}} FROM {"type":"minecraft:crafting_shaped","pattern":["WWW","WWW","WWW"],"key":{"W":{"item":"avaritia:infinity_block"}},"result":{"item":"dripium:raw_dripium","count":1}}
+[11:59:30] [INFO] forbidden_arcanus:edelwood_fence_gate: {"type":"minecraft:crafting_shaped","category":"building","key":{"X":{"item":"forbidden_arcanus:edelwood_planks"}},"pattern":[" X "," X "],"result":{"item":"forbidden_arcanus:edelwood_fence_gate"},"show_notification":true} FROM {"type":"minecraft:crafting_shaped","category":"building","key":{"#":{"fabric_value":{"item":"minecraft:stick"},"forge_value":{"tag":"forge:rods/wooden"}},"X":{"item":"forbidden_arcanus:edelwood_planks"}},"pattern":["#X#","#X#"],"result":{"item":"forbidden_arcanus:edelwood_fence_gate"},"show_notification":true}
+[11:59:30] [INFO] ======== Debug output of all removed recipes ========
+[11:59:30] [INFO] roundabout:meteorite_smelting: {"type":"minecraft:smelting","category":"misc","cookingtime":200,"experience":7.0,"group":"roundabout:meteorite","ingredient":{"item":"roundabout:meteorite"},"result":"roundabout:meteorite_ingot"}
+[11:59:30] [INFO] roundabout:stand_disc_shaped: {"type":"minecraft:crafting_shaped","category":"misc","pattern":[" # ","#D#"," # "],"key":{"#":{"item":"minecraft:quartz"},"D":{"item":"minecraft:soul_sand"}},"result":{"item":"roundabout:stand_disc"}}
+[11:59:30] [INFO] roundabout:meteorite_blasting: {"type":"minecraft:blasting","category":"misc","cookingtime":100,"experience":7.0,"group":"roundabout:meteorite","ingredient":{"item":"roundabout:meteorite"},"result":"roundabout:meteorite_ingot"}
+[11:59:30] [INFO] roundabout:meteorite_ingot_from_block: {"type":"minecraft:crafting_shapeless","category":"equipment","ingredients":[{"item":"roundabout:meteor_block"}],"result":{"count":9,"item":"roundabout:meteorite_ingot"}}
+[11:59:34] [INFO] Server resource reload complete!

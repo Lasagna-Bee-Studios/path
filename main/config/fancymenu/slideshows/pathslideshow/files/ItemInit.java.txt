@@ -1,0 +1,99 @@
+package io.github.Linksapprentice.path_core.init;
+
+import io.github.Linksapprentice.path_core.Path_Core;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Rarity;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraft.world.item.Item;
+import static io.github.Linksapprentice.path_core.Path_Core.MODID;
+import static io.github.Linksapprentice.path_core.init.pearlescent_frognium_armor.pearlescent_froginium;
+import static io.github.Linksapprentice.path_core.init.ochre_froginum_armor.ochre_froginium;
+import static io.github.Linksapprentice.path_core.init.verdant_frognium_armor.verdant_froginium;
+
+public class ItemInit {
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+
+    public static final RegistryObject<Item> Frog_Growth_Hormone = ITEMS.register("frog_growth_hormone", () ->
+            new Item(new Item.Properties()
+                    .stacksTo(16)
+                    .rarity(Rarity.EPIC)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(5)
+                            .saturationMod(.25f)
+                            .effect(() -> new MobEffectInstance(MobEffects.WATER_BREATHING, 10000, 2), 1f)
+                            .effect(() -> new MobEffectInstance(MobEffects.JUMP, 10000, 2), 1f)
+                            .build()
+
+
+                    )));
+    public static final RegistryObject<BlockItem> verdant_froginium_block_item = ITEMS.register("verdant_froginium_block", () -> new BlockItem(BlockInit.verdant_froginium_block.get(), new Item.Properties()
+            .rarity(Rarity.EPIC)
+    ));
+
+    public static final RegistryObject<BlockItem> ochre_froginium_block_item = ITEMS.register("ochre_froginium_block", () -> new BlockItem(BlockInit.ochre_froginium_block.get(), new Item.Properties()
+            .rarity(Rarity.EPIC)
+    ));
+
+    public static final RegistryObject<BlockItem> pearlescent_froginium_block_item = ITEMS.register("pearlescent_froginium_block", () -> new BlockItem(BlockInit.pearlescent_froginium_block.get(), new Item.Properties()
+            .rarity(Rarity.EPIC)
+    ));
+    public static final RegistryObject<ArmorItem> ochre_froginium_helmet = ITEMS.register("ochre_froginium_helmet", () -> new ArmorItem(
+            ochre_froginium, ArmorItem.Type.HELMET,
+            new Item.Properties()
+    ));
+
+    public static final RegistryObject<ArmorItem> ochre_froginium_chestplate = ITEMS.register("ochre_froginium_chestplate", () -> new ArmorItem(
+            ochre_froginium, ArmorItem.Type.CHESTPLATE,
+            new Item.Properties()
+    ));
+    public static final RegistryObject<ArmorItem> ochre_froginium_leggings = ITEMS.register("ochre_froginium_leggings", () -> new ArmorItem(
+            ochre_froginium, ArmorItem.Type.LEGGINGS,
+            new Item.Properties()
+    ));
+    public static final RegistryObject<ArmorItem> ochre_froginium_boots = ITEMS.register("ochre_froginium_boots", () -> new ArmorItem(
+            ochre_froginium, ArmorItem.Type.BOOTS,
+            new Item.Properties()
+    ));
+    public static final RegistryObject<ArmorItem> pearlescent_froginium_helmet = ITEMS.register("pearlescent_froginium_helmet", () -> new ArmorItem(
+            pearlescent_froginium, ArmorItem.Type.HELMET,
+            new Item.Properties()
+    ));
+    public static final RegistryObject<ArmorItem> pearlescent_froginium_chestplate = ITEMS.register("pearlescent_froginium_chestplate", () -> new ArmorItem(
+            pearlescent_froginium, ArmorItem.Type.CHESTPLATE,
+            new Item.Properties()
+    ));
+    public static final RegistryObject<ArmorItem> pearlescent_froginium_leggings = ITEMS.register("pearlescent_froginium_leggings", () -> new ArmorItem(
+            pearlescent_froginium, ArmorItem.Type.LEGGINGS,
+            new Item.Properties()
+    ));
+    public static final RegistryObject<ArmorItem> pearlescent_froginium_boots = ITEMS.register("pearlescent_froginium_boots", () -> new ArmorItem(
+            pearlescent_froginium, ArmorItem.Type.BOOTS,
+            new Item.Properties()
+    ));
+    public static final RegistryObject<ArmorItem> verdant_froginium_helmet = ITEMS.register("verdant_froginium_helmet", () -> new ArmorItem(
+            verdant_froginium, ArmorItem.Type.HELMET,
+            new Item.Properties()
+    ));
+    public static final RegistryObject<ArmorItem> verdant_froginium_chestplate = ITEMS.register("verdant_froginium_chestplate", () -> new ArmorItem(
+            verdant_froginium, ArmorItem.Type.CHESTPLATE,
+            new Item.Properties()
+    ));
+    public static final RegistryObject<ArmorItem> verdant_froginium_leggings = ITEMS.register("verdant_froginium_leggings", () -> new ArmorItem(
+            verdant_froginium, ArmorItem.Type.LEGGINGS,
+            new Item.Properties()
+    ));
+    public static final RegistryObject<ArmorItem> verdant_froginium_boots = ITEMS.register("verdant_froginium_boots", () -> new ArmorItem(
+            verdant_froginium, ArmorItem.Type.BOOTS,
+            new Item.Properties()
+    ));
+    public static final  RegistryObject<Item> ochre_froginium_ingot = ITEMS.register("ochre_froginium_ingot", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
+    public static final  RegistryObject<Item> verdant_froginium_ingot = ITEMS.register("verdant_froginium_ingot", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
+    public static final  RegistryObject<Item> pearlescent_froginium_ingot = ITEMS.register("pearlescent_froginium_ingot", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
+}
+

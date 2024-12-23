@@ -1,0 +1,236 @@
+{
+  "botania:challenge/root": {
+    "criteria": {
+      "flower": "2024-12-23 11:12:34 -0600"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/leaf_helmet": {
+    "criteria": {
+      "has_leaves": "2024-12-23 11:04:39 -0600"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-12-23 11:03:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-12-23 11:02:16 -0600"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2024-12-23 11:02:16 -0600"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2024-12-23 11:02:16 -0600"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/flower_bag": {
+    "criteria": {
+      "has_item": "2024-12-23 11:12:34 -0600"
+    },
+    "done": true
+  },
+  "vs_eureka:recipes/balloon_color": {
+    "criteria": {
+      "has_red_balloon": "2024-12-23 11:03:01 -0600",
+      "has_black_balloon": "2024-12-23 11:03:01 -0600",
+      "has_lime_balloon": "2024-12-23 11:03:01 -0600",
+      "has_cyan_balloon": "2024-12-23 11:03:01 -0600",
+      "has_light_blue_balloon": "2024-12-23 11:03:01 -0600",
+      "has_gray_balloon": "2024-12-23 11:03:01 -0600",
+      "has_pink_balloon": "2024-12-23 11:03:01 -0600",
+      "has_light_gray_balloon": "2024-12-23 11:03:01 -0600",
+      "has_white_balloon": "2024-12-23 11:03:01 -0600",
+      "has_blue_balloon": "2024-12-23 11:03:01 -0600",
+      "has_yellow_balloon": "2024-12-23 11:03:01 -0600",
+      "has_purple_balloon": "2024-12-23 11:03:01 -0600",
+      "has_orange_balloon": "2024-12-23 11:03:01 -0600",
+      "has_brown_balloon": "2024-12-23 11:03:01 -0600",
+      "has_green_balloon": "2024-12-23 11:03:01 -0600",
+      "has_magenta_balloon": "2024-12-23 11:03:01 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "lavender_field": "2024-12-23 11:02:17 -0600"
+    },
+    "done": true
+  },
+  "vs_eureka:recipes/ship_helm": {
+    "criteria": {
+      "has_gold": "2024-12-23 11:03:01 -0600"
+    },
+    "done": true
+  },
+  "skyarena:root": {
+    "criteria": {
+      "always": "2024-12-23 11:02:16 -0600"
+    },
+    "done": true
+  },
+  "vs_eureka:recipes/balloon_membrane": {
+    "criteria": {
+      "has_membrane": "2024-12-23 11:03:01 -0600"
+    },
+    "done": true
+  },
+  "botania:main/root": {
+    "criteria": {
+      "flower": "2024-12-23 11:12:34 -0600"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/light_blue_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-12-23 11:12:34 -0600"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_light_blue": {
+    "criteria": {
+      "has_item": "2024-12-23 11:12:34 -0600"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/leaf_boots": {
+    "criteria": {
+      "has_leaves": "2024-12-23 11:04:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2024-12-23 11:05:00 -0600"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-23 11:05:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "rotten_flesh": "2024-12-23 11:05:20 -0600"
+    },
+    "done": false
+  },
+  "ultimine_addition:root": {
+    "criteria": {
+      "killed_something": "2024-12-23 11:05:00 -0600"
+    },
+    "done": true
+  },
+  "compressium:recipes/building_blocks/dirt_1": {
+    "criteria": {
+      "has_dirt": "2024-12-23 11:11:30 -0600"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/root": {
+    "criteria": {
+      "tick": "2024-12-23 11:02:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2024-12-23 11:05:00 -0600"
+    },
+    "done": false
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2024-12-23 11:02:16 -0600"
+    },
+    "done": true
+  },
+  "botania:main/flower_pickup_lexicon": {
+    "criteria": {
+      "flower": "2024-12-23 11:12:34 -0600"
+    },
+    "done": true
+  },
+  "vs_eureka:recipes/balloon_leather": {
+    "criteria": {
+      "has_leather": "2024-12-23 11:03:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-12-23 11:05:00 -0600"
+    },
+    "done": true
+  },
+  "vs_eureka:recipes/balloon_paper": {
+    "criteria": {
+      "has_paper": "2024-12-23 11:03:01 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "mediterranean_forest": "2024-12-23 11:05:16 -0600",
+      "lavender_field": "2024-12-23 11:02:17 -0600"
+    },
+    "done": false
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-12-23 11:02:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-23 11:05:20 -0600"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/leaf_leggings": {
+    "criteria": {
+      "has_leaves": "2024-12-23 11:04:39 -0600"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/leaf_chestplate": {
+    "criteria": {
+      "has_leaves": "2024-12-23 11:04:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-12-23 11:06:41 -0600",
+      "minecraft:ocean": "2024-12-23 11:28:23 -0600"
+    },
+    "done": false
+  },
+  "botania:main/flower_pickup": {
+    "criteria": {
+      "flower": "2024-12-23 11:12:34 -0600"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
+    "criteria": {
+      "has_flower": "2024-12-23 11:05:03 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

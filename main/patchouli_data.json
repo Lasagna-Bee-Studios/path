@@ -1,0 +1,18 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:mana/spreader",
+        "botania:mana/pool",
+        "botania:alfhomancy/gaia_ritual",
+        "botania:alfhomancy/intro",
+        "botania:basics/rune_altar",
+        "botania:basics/terrasteel"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

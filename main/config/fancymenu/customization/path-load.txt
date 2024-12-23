@@ -1,0 +1,180 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1734975954185
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:d9b5a5e8-acb9-42b4-8f6e-63d8675074f6-1734975879593] = [groups:][instances:]
+}
+
+menu_background {
+  panorama_name = pathpanorama
+  background_type = panorama
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  bar_color = #5295FFFF
+  bar_texture = [source:local]/config/fancymenu/assets/jjba_arror.png
+  background_color = #ABC8F7FF
+  background_texture = [source:local]/config/fancymenu/assets/jjba_arror_line.png
+  direction = right
+  progress_for_element_anchor = false
+  progress_source = {"placeholder":"game_loading_progress"}
+  value_mode = float
+  element_type = progress_bar
+  instance_identifier = 3e592c0b-325b-457f-a17e-4a7ad4320bf3-1733684547598
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1420
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -125
+  y = 39
+  width = 249
+  height = 60
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 9257ac03-946a-4d2a-9479-e806ae050e86-1733684547598
+  [loading_requirement_container_meta:9257ac03-946a-4d2a-9479-e806ae050e86-1733684547598] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/lasagnabee.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 329ea9a3-de21-41fe-810f-dcea7527a9ea-1734190065957
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1420
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -50
+  y = -50
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = d312a685-81e1-4695-a185-7db3b131ad8a-1734190065957
+  [loading_requirement_container_meta:d312a685-81e1-4695-a185-7db3b131ad8a-1734190065957] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 540b1159-b4aa-4009-98f4-a75d4d5766e1-1733681658879
+  [executable_block:540b1159-b4aa-4009-98f4-a75d4d5766e1-1733681658879][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 66ccc0fd-f90d-4fa4-b2cc-ef7db1228786-1733681658879
+  [loading_requirement_container_meta:66ccc0fd-f90d-4fa4-b2cc-ef7db1228786-1733681658879] = [groups:][instances:]
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1420
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 114
+  y = 107
+  width = 284
+  height = 70
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = b634849c-bcfe-4f4d-a1b6-9c6a9daf1c6a-1733681658879
+  [loading_requirement_container_meta:b634849c-bcfe-4f4d-a1b6-9c6a9daf1c6a-1733681658879] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 2833814e-9b1d-4c28-9d59-70592dcec358-1733681658879
+  [executable_block:2833814e-9b1d-4c28-9d59-70592dcec358-1733681658879][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 2f8f1626-34c6-4061-a965-98f7c2c3e5b1-1733681658879
+  [loading_requirement_container_meta:2f8f1626-34c6-4061-a965-98f7c2c3e5b1-1733681658879] = [groups:][instances:]
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1425
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 114
+  y = 231
+  width = 284
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5181c2c4-093f-491d-885a-564744d50a12-1733681658879
+  [loading_requirement_container_meta:5181c2c4-093f-491d-885a-564744d50a12-1733681658879] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
